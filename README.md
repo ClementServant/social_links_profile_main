@@ -45,13 +45,13 @@ Users should be able to:
 
 ### Screenshot
 - My desktop solution
-![My desktop solution screen](image.png)
+![My desktop solution screen](./assets/images/image.png)
 - My mobile solution
-![My mobile solution screen](image-1.png)
+![My mobile solution screen](./assets/images/image-1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ClementServant/social_links_profile_main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
