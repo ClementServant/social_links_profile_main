@@ -99,7 +99,32 @@ body {
         cursor: pointer;
     }
 }
-
+/* Responsive */
+@media (max-width: 768px) {
+    .card-profile {
+        padding: 2rem;
+    }
+    .card-profile_information {
+        .name {
+            font-size: 1.8rem;
+        }
+        .from {
+            font-size: 1rem;
+        }
+        .profession {
+            font-size: 0.8rem;
+        }
+    }
+    .card-profile_links {
+        .link-1,
+        .link-2, 
+        .link-3,
+        .link-4, 
+        .link-5{
+            height: 40px;
+        }
+    }
+}
 
 
 
