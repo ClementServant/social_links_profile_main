@@ -87,7 +87,6 @@ body {
         background: var(--Grey);
         height: 50px;
         margin-top: 1rem;
-        color: var(--White);
         border-radius: 10px;
         font-weight: 600;
         a{

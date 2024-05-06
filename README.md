@@ -52,7 +52,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/ClementServant/social_links_profile_main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://clementservant.github.io/social_links_profile_main/)
 
 ## My process
 
