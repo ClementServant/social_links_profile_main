@@ -1,0 +1,105 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Déclaration :root */
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+/* Body */
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--Off-Black);
+}
+
+/* Main */
+/** Section **/
+.card-profile {
+    width: auto;
+    height: auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: var(--Dark-Grey);
+    padding: 3rem;
+}
+.card-profile_image {
+    .image {
+        width: 50%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+.card-profile_information {
+    margin-top: 1rem;
+    .name {
+        font-size: 2.1rem;
+        color: var(--White);
+        margin: 1rem;
+        font-weight: 600;
+    }
+    .from {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--Green);
+        margin: 1rem;
+    }
+    .profession {
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--White);
+        margin: 2rem 2rem 0 2rem;
+    }
+}
+.card-profile_links {
+    width: 100%;
+    margin-top: 1rem;
+    .link-1,
+    .link-2, 
+    .link-3,
+    .link-4, 
+    .link-5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--Grey);
+        height: 50px;
+        margin-top: 1rem;
+        color: var(--White);
+        border-radius: 10px;
+    }
+    .link-1:hover,
+    .link-2:hover, 
+    .link-3:hover,
+    .link-4:hover, 
+    .link-5:hover{
+        background: var(--Green);
+        cursor: pointer;
+    }
+}
+
+
+
+
